@@ -1,0 +1,21 @@
+{
+  "name": "node-mongodb-expres",
+  "version": "1.0.0",
+  "description": "requests to server  & response to browser",
+  "main": "express.js",
+  "scripts": {
+    "test": "nodemon express",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "request-response-server"
+  },
+  "author": "abdel",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
